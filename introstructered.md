@@ -3,12 +3,10 @@
 
 ## What is a paradigm?  
 
-[Structured programming](https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) sometimes known as modular programmingis a programming paradigm that facilitates the creation of programs with readable code and reusable components. All modern programming languages support structured programming, but the mechanisms of support, like the syntax of the programming languages, varies.
-
-Where modules or elements of code can be reused from a library, it may also be possible to build structured code using modules written in different languages, as long as they can obey a common module interface or application program interface (API) specification. However, when modules are reused, it's possible to compromise data security and governance, so it's important to define and enforce a privacy policy controlling the use of modules that bring with them implicit data access rights.
-According with TechTarget:
-> Structured programming encourages dividing an application program into a hierarchy of modules or autonomous elements, which may, in turn, contain other such elements. Within each element, code may be further structured using blocks of related logic designed to improve readability and maintainability. These may include case, which tests a variable against a set of values; Repeat, while and for, which construct loops that continue until a condition is met. In all structured programming languages, an unconditional transfer of control, or goto statement, is deprecated and sometimes not even available.    
-Programming paradigms are a way to classify programming languages based on their features.
+Programming paradigms are alternative approaches to programming processes. They fundamentally represent different approaches to building solutions to problems and therefore affect the entire software development process. 
+According with [Hackages](https://blog.hackages.io/tech-terms-explained-programming-paradigms-8c4072404f8e):
+> Programming is about solving problems and problems can usually be solved in a variety of ways. A programming paradigm is a way to approach a problem. While some programming languages allow you to use only one approach, most popular languages today allow developers to use a combination of them.
+On the highest level, we can differentiate between 2 types of programming paradigms: imperative and declarative.
 
 ![Varieties of paradigms](https://media.geeksforgeeks.org/wp-content/uploads/1-344.png)
 
@@ -57,10 +55,23 @@ container.appendChild(btn);
 BASIC, Pascal and C are examples of this paradigm.  
   
 2. **Object Oriented Programming:**
-  The program is written as a collection of classes and object which are meant for communication. More emphasis is on data rather procedure. It can handle almost all kind of real life problems which are today in scenario. Examples: Java, JavaScript, Python, C++, Visual Basic, .NET, Ruby, Scala and PHP
+  The program is written as a collection of classes and object which are meant for communication. More emphasis is on data rather procedure. It can handle almost all kind of real life problems which are today in scenario. This paradigm Examples: Java, JavaScript, Python, C++, Visual Basic, .NET, Ruby, Scala and PHP
   
 3. **Parallel Processing approach:**
   Parallel processing is the processing of program instructions by dividing them among multiple processors. A parallel processing system posses many numbers of processor with the objective of running a program in less time by dividing them. This approach seems to be like divide and conquer.
+
+4. ** Von Neumann:
+> Anyone that contains a high degree of abstraction and is based on the von Neumann architecture is considered a programming language of the von Neumann type. .
+Since programming languages like Fortran, C or Java were created in imitation of the von Neumann programming style, the differences between the three are barely noticeable. All programming is based on von Neumann's computer programming style.
+
+> Some similarities of form between programming languages and von Neumann architecture are:
+- Variables ↔ Storage cells
+- Control instructions ↔ jump instructions
+- Assignment instructions ↔ search, storage of instructions.
+- Expressions ↔ Memory references and arithmetic instructions.
+
+5. ** Interpreted (Scripting):
+  [Interpreted](https://whatis.techtarget.com/definition/interpreted-script), sometimes is called script, is a logically sequenced series of operating system commands, handled one at a time by a command interpreter. It is a computer program capable of analyzing and executing other programs. Interpreters differ from compilers or assemblers in that while translators translate a program from its description in a programming language to the system machine code, the interpreters only perform the translation as needed, typically instruction by instruction. , and normally do not save the result of such translation.
 
 ### Declarative Programming paradigm.
 Is a style of building programs that expresses logic of computation without talking about its control flow. The focus is on what needs to be done rather how it should be done basically emphasize on what code code is actually doing. It just declare the result we want rather how it has be produced. Here an [example](https://spines.me/es/help/markdown/syntax/) in a code:  
@@ -93,6 +104,17 @@ Is a style of building programs that expresses logic of computation without talk
   
 4. **Structured**:
    Programming with clean, goto-free, nested control structures. Is a kind of imperative programming where control flow is defined by nested loops, conditionals, and subroutines, rather than via gotos. Variables are generally local to blocks.
+ 
+ 5. **Dataflow Programming paradigm**: 
+   The control follows data and computations are executed implicitly based on data availability. Dataflow abstracts over explicit control flow by placing the emphasis on the routing and transformation of data.
+ 
+ 6. **Template-Based Programming paradigm**:
+   Programming paradigm in which programs are constructed by using pre built templates. Code is generated by instantiating some kind of code template with some parameters (the domain-specific program).
+
+7. **Structured Programming paradigm**:
+   Programming paradigm aimed at improving the clarity, quality, and development time of a computer program by making extensive use of the structured control flow constructs of selection and repetition, block structures, and subroutines.
+
+
   
 ## [Programming language.](https://hackr.io/blog/what-is-programming-language)
 A programming language is the translation from human language to machine language and is designed to carry out processes that only computers can achieve. They are used to create codes that control the behavior of the computer. These codes are expressed as algorithms as a mode of human communication. It is made up of symbols and syntactic rules that define its structure and the meaning of each expression and element. In addition there is a process which is testing, debugging, compilation and then the source code is maintained. That is called programming.
@@ -121,9 +143,19 @@ int main (){
 	return 0;
 }
 ```
+## Source Code.  
+Is specially designed to facilitate the work of computer programmers, who specify the actions to be performed by a computer mostly by writing source code. Contains all the written instructions of a program to be later translated into machine language and executed.
+
+## Spaghetti Code.
+According with [Techopedia](https://www.techopedia.com/definition/9476/spaghetti-code):
+> Spaghetti code is a slang term used to refer to a tangled web of programming source code where control within a program jumps all over the place and is difficult to follow. Spaghetti code normally has a lot of GOTO statements and is common in old programs, which used such statements extensively.
+The rise of more structured programming languages, like object-oriented programming languages, has reduced the prevalence of spaghetti code.
+
+![spaghetti code](https://craftofcoding.files.wordpress.com/2013/10/pi_forspaghetti.jpg)
+
 ## Structured programm. 
 [Structured programming](https://www.geeksforgeeks.org/structured-programming-approach-with-advantages-and-disadvantages/) can be defined with a focus on where the Program is executed with a unique structure in order to be Clear, precise and to optimize time. In other words, the code works instruction after instruction. It uses only subroutines and three structures: sequence, selection (if and switch) and iteration (for and while loops). It does not support the ability to jump from one statement to another with the help of a statement like GOTO.
-
+[Structured programming](https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) sometimes known as modular programmingis a programming paradigm that facilitates the creation of programs with readable code and reusable components. All modern programming languages support structured programming, but the mechanisms of support, like the syntax of the programming languages, varies.
 ### Examples:
 1. C
 2. C ++
@@ -141,7 +173,18 @@ int main (){
 ):  is a value that can change, depending on conditions or on information passed to the program.
 - **Constants**:  is a value that cannot be altered by the program during normal execution.
 - [**Reserved Words**](https://www.computerhope.com/jargon/r/reseword.htm
-): are terms or phrases appropriated for special use that may not be utilized in the creation of variable names.
+): 
+Reserved words are a term widely used in programming that consist of a group of identifiers that have a very important characteristic, they cannot be used by a user or programmer to name or refer to either variables, functions, objects, or any other programming item you want to create. This happens because the programming language itself contains them included and the objective is not to confuse and cause an error to the program.
+Example:
+do
+else
+for
+if
+return
+void
+while
+However, it depends of the programming lenguage. 
+
 - [**Types of data**]( https://dl.sumdu.edu.ua/textbooks/103395/597162/index.html
 ): is a type together with a collection of operations to manipulate the type.
   - Primitive: are predefined types of data, which are supported by the programming language. 
@@ -200,7 +243,8 @@ Continued there is a graphic representation about data types from [Xin's story](
   - Not equal to **!=**
   
   Below is a descriptive image taken from the National Institute of [Open Schooling](http://oer.nios.ac.in/wiki/index.php/List_of_operators_used_in_JavaScript)
-  ![List of operators in c](https://lh3.googleusercontent.com/proxy/UtM0k2eyWDmdXxG5bV7e7sxtpvYMghuY18pxA8-IzV6T3w5aJ1R0xZr5c6hD5Oo0Nw5hPYwg_v6j6D31iXG2MwQvZMPWvmrbBwCLHvAB)
+
+![List of operators in c](https://4.bp.blogspot.com/-HkkiDDgQ93c/Uuor0-Uh4nI/AAAAAAAAAbE/oYKfenLfF3E/s1600/460.gif)
   
   ## Version control.  
   
