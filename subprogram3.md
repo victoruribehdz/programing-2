@@ -20,10 +20,7 @@ same code again and again.
   * OUT: Callee writes values in caller.
   * IN/OUT: Caller tells callee value of variable, which may be updated by callee.
 
-1. By Reference: This technique uses in/out-mode semantics. Changes made to formal parameter do
- get transmitted back to the caller through parameter passing. Any changes to the formal parameter are 
- reflected in the actual parameter in the calling environment as formal parameter receives a reference 
- (or pointer) to the actual data. 
+1. By Reference: This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. 
 ```
 #include <stdio.h> 
 
@@ -40,10 +37,7 @@ int main(void)
 	return 0; 
 } 
 ```
-2. By Value: This method uses in-mode semantics. Changes made to formal parameter do not get 
- transmitted back to the caller. Any modifications to the formal parameter variable inside the called 
- function or method affect only the separate storage location and will not be reflected in the actual 
- parameter in the calling environment.
+2. By Value: This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling environment.
 ```
 #include <stdio.h> 
 
