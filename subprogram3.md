@@ -160,5 +160,8 @@ def even(n):
 
 When implementing a recursive subprogram, it will be necessary to consider a termination condition, otherwise the subprogram would continue to call itself indefinitely and there would come a time when the memory could run out. Consequently, it would be necessary to establish in any recursive applet the stop condition that ends the recursive calls and to avoid the calls indefinitely. Thus, for example, in the case of the factorial function defined above, the output condition can be when the number is 1 or 0, since in both cases the factorial is 1.
 
+## ***Equipo***:
+1. Osiris Cámara Salinas.
+2. Victor Uribe Hernandez. 
 
 
