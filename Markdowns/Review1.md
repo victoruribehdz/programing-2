@@ -4,7 +4,7 @@
  * int: Integer
  * float: Float
  * Char: Character
- * Char[]: String
+ * Char[ ]: String
  * void: Void
  * *ptr: pointer
 
@@ -19,7 +19,8 @@
  
 ### Structures
  * Struct: is the form to declare a structure that would be used in the principal code.
- * : to access to the structure.
+ * nameStructure.VariableWithinStruct: to access to the structure.
+ 
 ### Operators
  * &&: and
  * ||: or
