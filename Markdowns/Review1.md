@@ -14,10 +14,12 @@
  * While: do the process until the contidition stops to met it.
  * Else if: If the first condition is not met, try the second condition.
  * Else: do the process if any condition is met.
- * Struct: is the form to declare a structure that would be used in the principal code.
  * Printf: print the output
  * Scanf: scan the input
-
+ 
+### Structures
+ * Struct: is the form to declare a structure that would be used in the principal code.
+ * : to access to the structure.
 ### Operators
  * &&: and
  * ||: or
