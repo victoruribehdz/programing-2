@@ -1,0 +1,22 @@
+#Calculate the minimum, 25th percentile, median, 75th, and maximum of a given series
+import pandas as pd
+import numpy as np
+num_state = np.random.RandomState(100)
+num_series = pd.Series(num_state.normal(10, 4, 20))
+print("Original Series:")
+print(num_series)
+result = np.percentile(num_series, q=[0])
+print("Minimum: ")
+print(result)
+result2 = np.percentile(num_series, q = [25])
+print("25th percentile: ")
+print(result2)
+result3 = np.percentile(num_series, q = [50])
+print("Median: ")
+print(result3)
+result4 = np.percentile(num_series, q = [75])
+print("75th percentile: ")
+print(result4)
+result5 = np.percentile(num_series, q = [100])
+print("Maximum: ")
+print(result5)
